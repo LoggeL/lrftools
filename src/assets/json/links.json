@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Homepage",
+    "caption": "",
+    "icon": "home",
+    "link": "/home"
+  },
+  {
+    "title": "Tile Generator",
+    "caption": "",
+    "icon": "image",
+    "link": "/tile-generator"
+  },
+  {
+    "title": "Literature",
+    "caption": "Creates Mods Files",
+    "icon": "book",
+    "link": "/literature"
+  }
+]

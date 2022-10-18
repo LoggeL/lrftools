@@ -1,0 +1,30 @@
+{
+  "name": "lrftools",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.14.3",
+    "date-fns": "^2.28.0",
+    "ohmyfetch": "^0.4.18",
+    "quasar": "^2.7.5",
+    "sftp-sync-deploy": "^0.7.1",
+    "vue": "^3.2.37",
+    "vue-image-lightbox": "^7.2.0",
+    "vue-lazyload": "3.0.0-rc.2",
+    "vue-router": "^4.1.2",
+    "vue3-picture-swipe": "^3.0.6",
+    "wrangler": "^2.1.12"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.0.10",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "sass": "1.32.12",
+    "vite": "^3.0.0"
+  }
+}
