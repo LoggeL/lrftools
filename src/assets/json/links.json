@@ -1,13 +1,13 @@
 [
   {
     "title": "Homepage",
-    "caption": "",
+    "caption": "Landing Page",
     "icon": "home",
     "link": "/home"
   },
   {
     "title": "Tile Generator",
-    "caption": "",
+    "caption": "Generate colorgraded images with labels",
     "icon": "image",
     "link": "/tile-generator"
   },
