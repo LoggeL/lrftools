@@ -1,0 +1,1 @@
+import{r as s,F as o,O as t,Y as e}from"./index.243ddde5.js";const a={class:"row"},c=e("div",{class:"col-md-10 col-sm-12 offset-md-1"},[e("h2",null,"Welcome to the LRF Tools Page")],-1),_=[c],m={__name:"IndexPage",setup(l){return s(!1),(r,n)=>(o(),t("div",a,_))}};export{m as default};
