@@ -2,9 +2,8 @@
 
 import { createApp } from 'vue'
 import { Quasar } from 'quasar'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import routes from './router/routes.ts'
-
 
 // Import icon libraries
 import '@quasar/extras/material-icons/material-icons.css'
@@ -18,7 +17,7 @@ import App from './App.vue'
 
 const myApp = createApp(App)
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
 })
 
