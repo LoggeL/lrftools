@@ -74,7 +74,7 @@ const startUpload = () => {
     const keys = Object.keys(categories)
     for (let i = 0; i < keys.length; i++) {
       const category = keys[i]
-      const response = await fetch('http://127.0.0.1:8787/', {
+      const response = await fetch('https://literature.logge.workers.dev/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
