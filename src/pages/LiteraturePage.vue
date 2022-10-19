@@ -7,7 +7,6 @@
       filled
       append
       style="max-width: 300px"
-      @update:model-value="handleFileUpload"
       clearable
     >
       <template v-slot:prepend>
@@ -36,11 +35,6 @@ import { exportFile } from 'quasar'
 
 const file = $ref(null)
 
-// On Change
-const handleFileUpload = () => {
-  console.log(file)
-}
-
 const progress = $ref({ loading: false, percentage: 0 })
 
 const startUpload = () => {
@@ -52,8 +46,6 @@ const startUpload = () => {
   var reader = new FileReader()
   reader.readAsText(file, 'UTF-8')
   reader.onload = async (evt) => {
-    console.log(evt.target.result)
-
     let split = evt.target.result.split('\n@')
     let categories = {}
 

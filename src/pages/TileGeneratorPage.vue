@@ -99,7 +99,6 @@ const updateImage = () => {
 
   const img = new Image()
   img.onload = () => {
-    console.log(img.width, img.height)
     canvas.width = maxWidth
     canvas.height = img.height * (maxWidth / img.width)
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
