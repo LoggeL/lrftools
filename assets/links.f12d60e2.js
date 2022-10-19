@@ -1,0 +1,1 @@
+const e=[{title:"Homepage",caption:"Landing Page",icon:"home",link:"/home"},{title:"Tile Generator",caption:"Generate LRF style Images",icon:"image",link:"/tile-generator"},{title:"Literature",caption:"Creates Mods Files",icon:"book",link:"/literature"}];export{e};
