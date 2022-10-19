@@ -7,7 +7,7 @@
   },
   {
     "title": "Tile Generator",
-    "caption": "Generate colorgraded images with labels",
+    "caption": "Generate LRF style Images",
     "icon": "image",
     "link": "/tile-generator"
   },
